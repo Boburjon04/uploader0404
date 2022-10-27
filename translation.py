@@ -2,9 +2,9 @@ class Translation(object):
 
     START_TEXT = """Hello,
 This is a Telegram URL Upload Bot!
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+<b>Please send me any Direct download URL link, I can upload to telegram as a File/Video</b>
 /help for more details..
-Support Channel : @BoburjonVlogs
+Support Group : @English_Chatting_Scene
 """
 
     HELP_USER = """Hai I'am a URL Uploader bot..
@@ -16,7 +16,7 @@ Support Channel : @BoburjonVlogs
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
-Support Channel : @BoburjonVlogs
+Support Group : @English_Chatting_Scene
 """
 
     FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
@@ -32,7 +32,7 @@ URL | newfilename | username | password"""
     
     DOWNLOAD_START = "Trying to download your file..."
     
-    UPLOAD_START = "Uploading now.."
+    UPLOAD_START = "Uploading now..."
     
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
 
