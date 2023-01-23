@@ -7,6 +7,8 @@ else:
 
 from pyrogram import Client
 
+uvicorn main:app --host 0.0.0.0 --port 10000
+    
 if __name__ == "__main__" :
     # create download directory, if not exist
     if not os.path.isdir(Config.DOWNLOAD_LOCATION):
